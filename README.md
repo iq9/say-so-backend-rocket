@@ -31,7 +31,7 @@ diesel migration run
 cargo run
 ```
 
-## Testing
+## Tests
 
 Run:
 
@@ -41,19 +41,23 @@ cargo test
 
 You can also check postman/newman. See `/tests` directory.
 
-## How It Works
+## DB Connection
 
 `diesel` cli uses `.env` file. Rocket sets database configuration from `.env` file.
 Rocket's [Guide](https://rocket.rs/guide/) here.
 
-## Features
+## Slugs
 
-By default, the "random suffixes" feature is enabled, so one could easily
-create multiple articles with the same title. To disable it:
+The "random suffixes" feature is enabled which appends a random slug onto the URL,
+so article-title collisions are avoided. To disable it:
 
 ```sh
 cargo run --no-default-features
 ```
+
+## Routes
+
+![ss-routes](https://user-images.githubusercontent.com/214047/83105279-604ee100-a088-11ea-921e-e65ba2ab85b7.png)
 
 ## TODO
 
