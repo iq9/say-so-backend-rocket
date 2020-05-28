@@ -1,6 +1,6 @@
-# Rust/Rocket MicroService
+# Rust on Rocket MicroService
 
-Skeletal fullstack MicroService built with Rust on [Rocket](http://rocket.rs/), backed by Postgres, including CRUD operations, Authentication (JWTs), routing, pagination, and more.
+Skeletal fullstack MicroService built with Rust on [Rocket](http://rocket.rs/), backed by Postgres, including CRUD operations, authentication (JWTs), routing, pagination, and more.
 
 Adheres to the [Rocket](http://rocket.rs/) styleguides & best practices.
 
